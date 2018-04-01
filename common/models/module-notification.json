@@ -1,0 +1,30 @@
+{
+  "name": "ModuleNotification",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "module": {
+      "type": "string",
+      "required": true
+    },
+    "notification": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true,
+      "default": "'default'"
+    },
+    "expiryDate": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

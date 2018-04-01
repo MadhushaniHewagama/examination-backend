@@ -38,5 +38,17 @@
   "Student": {
     "dataSource": "Firestore",
     "public": true
+  },
+  "Module": {
+    "dataSource": "Firestore",
+    "public": true
+  },
+  "DirectNotification": {
+    "dataSource": "Firestore",
+    "public": true
+  },
+  "ModuleNotification": {
+    "dataSource": "Firestore",
+    "public": true
   }
 }

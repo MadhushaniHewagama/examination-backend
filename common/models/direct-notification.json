@@ -1,0 +1,25 @@
+{
+  "name": "DirectNotification",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "indexNo": {
+      "type": "string",
+      "required": true
+    },
+    "notification": {
+      "type": "string",
+      "required": true
+    },
+    "expiryDate": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

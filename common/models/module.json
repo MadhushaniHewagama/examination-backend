@@ -1,0 +1,35 @@
+{
+  "name": "Module",
+  "plural": "Modules",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "moduleCode": {
+      "type": "string",
+      "required": true
+    },
+    "indexNumbers": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    },
+    "resultAvailable": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "results": {
+      "type": [
+        "string"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
